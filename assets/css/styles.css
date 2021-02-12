@@ -1,0 +1,137 @@
+/*Universal Styles*/
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    /*font-family: 'Cormorant Garamond', serif;
+    font-family: 'Source Code Pro', monospace;*/
+}
+
+/*Nav Bar*/
+header {
+    background-color: rgb(20, 18, 18);
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 10;
+}
+
+header img {
+    width: auto;
+    height: 80px;
+}
+
+header nav {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 0 2rem;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+@media only screen and (max-width: 900px) {
+    .full-logo {
+        display: none;
+    }
+    .small-logo {
+        display:block;
+        padding-left: 10px;
+    }
+    nav ul li a {
+        font-size: 1.75rem;
+        font-family: 'Cormorant Garamond', serif;
+    }
+    
+}
+/* Welcom Section */
+
+#welcome {
+    position: relative;
+    display: flex;
+    top: 80px;
+    background-image: url("../images/buildings-abstract.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+}
+
+#welcome .container {
+    position: relative;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    opacity: 0.75;
+    width: 80%;
+    margin: auto;
+    padding: 20px 10px;
+}
+
+#welcome h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 0;
+}
+
+#welcome p {
+    font-size: 2rem;
+    text-align: justify;
+    margin: 1rem;
+}
+
+@media only screen and (max-width: 900px) {
+
+    #welcome h1 {
+        font-size: 2.5rem;
+    }
+    
+    #welcome p {
+        font-size: 1.5rem;
+    }
+
+}
+
+/* Portfolio Section */
+
+#portfolio {
+    position: relative;
+    top: 80px;
+}
+
+/* About Section */
+
+#about {
+    position: relative;
+    top: 80px;
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 80px; 
+}
