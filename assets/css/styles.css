@@ -116,6 +116,57 @@ nav ul li a {
 #portfolio {
     position: relative;
     top: 80px;
+    background-color:aliceblue ;
+}
+
+#portfolio h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+#portfolio h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+#portfolio .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#portfolio .container .project-card {
+    width: 420px;
+    display: grid;
+    grid-template-rows: 310px 50px 80px;
+    row-gap: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px;
+    opacity: .8;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.project-card h3 {
+    margin-top: 10px;
+    padding: 10px;
+    align-self: center;
+    text-align: center;
+    width: 100%;
+    background-color: lightblue;
+    box-sizing: border-box;
+}
+
+.project-card p {
+    margin-left: 10px;
 }
 
 /* About Section */
