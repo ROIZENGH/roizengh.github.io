@@ -79,7 +79,7 @@ nav ul li a {
 #welcome .container {
     position: relative;
     border: 1px solid whitesmoke;
-    border-radius: 5px;
+    border-radius: 15px;
     background-color: whitesmoke;
     opacity: 0.75;
     width: 80%;
@@ -191,7 +191,7 @@ nav ul li a {
 #about .container {
     position: relative;
     border: 1px solid whitesmoke;
-    border-radius: 5px;
+    border-radius: 15px;
     background-color: whitesmoke;
     opacity: 0.75;
     width: 80%;
